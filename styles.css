@@ -12,10 +12,16 @@ a:hover {
     text-decoration: none; /* 下線をつける */
     transition: 0.3s; /* なめらかに変化 */
 }
+
 img{
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
+}
+
+h1 img{
+    width: 250px;
+    height: auto;
 }
 body {
     font-family: "Zen Maru Gothic", serif;
