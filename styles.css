@@ -72,8 +72,15 @@ nav {
 }
 .hero{
     text-align: center;
+    position: relative;
 }
-
+.phrase{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    font-size: 60px;
+    color: #fff;
+}
 header h1 {
     font-size: 2em;
     margin-bottom: 20px;}
@@ -235,4 +242,5 @@ section .note{
     margin: 10px,4px,auto;
     justify-content: center;
 }
+
 
