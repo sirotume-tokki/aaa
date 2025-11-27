@@ -156,6 +156,8 @@ h2 {
 @media (max-width: 768px) {
     .works-container {
         grid-template-columns: 1fr; /* スマホでは1列表示 */
+    .phrase {
+        display: none;
     }
 }
 .work-item {
@@ -243,9 +245,7 @@ section .note{
     justify-content: center;
 }
 
-.phrase {
-        display: none;
-    }
+
 
 
 
